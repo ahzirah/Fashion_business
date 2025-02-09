@@ -1,0 +1,77 @@
+name: fashion
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+#........................PACKAGES..................#
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+#........................Utility Packages..................#
+
+#....Icons
+  cupertino_icons: ^1.0.8
+
+#....State Management
+  get: ^4.6.5
+
+#....Product Specific
+
+
+#......................... PACKAGES END..................#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+#......................... LOCAL ASSETS..................#
+
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/icons/
+    - assets/videos/
+    - assets/fonts/
+
+
+#......................... LOCAL FONTS..................#
+
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: assets/fonts/Cinzel-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/Cinzel-Regular.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Cinzel-SemiBold.ttf
+          weight: 600
+       
+    - family: Cormorant Upright
+      fonts:
+        - asset: assets/fonts/CormorantUpright-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/CormorantUpright-Light.ttf
+          weight: 400
+        - asset: assets/fonts/CormorantUpright-Medium.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/CormorantUpright-Regular.ttf
+          weight: 400
+          
+
