@@ -1,3 +1,5 @@
+
+import 'package:fashion/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,20 +14,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
+      themeMode: ThemeMode.system,
+      theme: ZAppTheme.lighTheme,
+      darkTheme: ZAppTheme.darkTheme,
        
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-     // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+       
+    
     );
   }
 }
-
-
-
-
-
 
 
 
