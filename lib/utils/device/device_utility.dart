@@ -4,9 +4,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:get/route_manager.dart';
-import 'package:get/utils.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class ZDeviceUtils{
@@ -52,13 +50,13 @@ class ZDeviceUtils{
     return MediaQuery.of(Get.context!).padding.top;
   }
 
-  static double getBottomNavigationBarHeight(){
-    return ZBottomNavigationBarHeight;
-  }
+  // static double getBottomNavigationBarHeight(){
+  //   return ZBottomNavigationBarHeight;
+  // }
 
-  static double getAppBarHeight() {
-    return ZToolBarHeight;
-  }
+  // static double getAppBarHeight() {
+  //   return ZToolBarHeight;
+  // }
 
   static double getKeyboardHeight() {
     final viewInsets = MediaQuery.of(Get.context!).viewInsets;
@@ -112,7 +110,7 @@ class ZDeviceUtils{
     if (await canLaunchUrlString(url)) {
       await launchUrlString(url);
     } else {
-      throw 'Could not Launch $url';
+      debugPrint ('Could not Launch $url');
     }
   }
 
