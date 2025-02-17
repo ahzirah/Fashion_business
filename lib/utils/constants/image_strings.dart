@@ -2,8 +2,8 @@
 
 class ZImages{
   // App Logos
-  static const String darkAppLogo = "assets/logos/splash_logo_dark.png";
-  static const String lightAppLogo = "assets/logos/splash_logo_light.png";
+  static const String darkAppLogo = "assets/logos/splash_logo_light_mode.png";
+  static const String lightAppLogo = "assets/logos/splash_logo_dark_mode.png";
 
   // Social Logos
   static const String google = "assets/icons/google_icon.png";
