@@ -10,7 +10,7 @@ class ZImages{
   static const String instagram = "assets/icons/instagram_icon.png";
 
   // Onboarding Images
-  static const String onBoadingImage1 = "assets/images/onboarding_images/chalo-garcia-rygrPAseHmY-unsplash.jpg";
-  static const String onBoardingImage2 = "assets/images/onboarding_images/julian-myles-JLJ41fdhRDY-unsplash.jpg";
-  static const String onBoardingImage3 = "assets/images/onboarding_images/khaled-ghareeb-rBdkjxJlRaI-unsplash.jpg";
+  static const String onBoardingImage1 = "assets/images/onboarding_images/chalo-garcia-rygrPAseHmY-unsplash-removebg-preview.png";
+  static const String onBoardingImage2 = "assets/images/onboarding_images/julian-myles-JLJ41fdhRDY-unsplash-removebg-preview.png";
+  static const String onBoardingImage3 = "assets/images/onboarding_images/khaled-ghareeb-rBdkjxJlRaI-unsplash-removebg-preview.png";
 }
