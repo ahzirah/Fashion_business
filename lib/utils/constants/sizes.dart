@@ -10,12 +10,12 @@ class ZSizes{
   // Icon sizes
   static const double icons = 12.0;
   static const double iconSm = 16.0;
-  static const double icond = 24.0;
+  static const double iconMd = 24.0;
   static const double iconlg = 32.0;
 
   // Font sizes
   static const double fontSizeSm = 14.0;
-  static const double fontSized = 16.0;
+  static const double fontSizeMd = 16.0;
   static const double fontSizelg = 18.0;
 
   // Button sizes
@@ -38,7 +38,7 @@ class ZSizes{
 
   // Border radius
   static const double borderRadiusSm = 4.0;
-  static const double borderRadiusd = 8.0;
+  static const double borderRadiusMd = 8.0;
   static const double borderRadiusLg = 12.0;
 
   // Divider height
